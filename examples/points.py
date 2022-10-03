@@ -15,8 +15,8 @@ def calculate():
     global x, y
     rx = round(random())
     ry = round(random())
-    x =  x +2 if (rx == 0) else x - 2
-    y =  y +2 if (ry == 0) else y - 2   
+    x =  x + 2 if (rx == 0) else x - 2
+    y =  y + 2 if (ry == 0) else y - 2   
 
 @window.event
 def on_draw():
